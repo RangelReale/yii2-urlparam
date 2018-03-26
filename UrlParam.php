@@ -2,10 +2,10 @@
 
 namespace RangelReale\urlparam;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\base\NotSupportedException;
 
-class UrlParam extends Object
+class UrlParam extends BaseObject
 {
     private $_params = [];
     
